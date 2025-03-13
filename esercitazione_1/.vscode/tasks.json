@@ -1,0 +1,26 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compila con Makefile",
+            "type": "shell",
+            "command": "make",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Pulisci il progetto",
+            "type": "shell",
+            "command": "make clean",
+            "group": "build"
+        },
+        {
+            "label": "Esegui il programma",
+            "type": "shell",
+            "command": "./bin/programma",
+            "group": "test"
+        }
+    ]
+}
