@@ -1,0 +1,10 @@
+# Binary files
+server
+agente
+investitore
+
+# Object files
+*.o
+
+# macOS system files
+.DS_Store
